@@ -20,7 +20,7 @@ CUDA_VISIBLE_DEVICES=N python main.py --nodes 2 --nr 3
 In the marine sciences, the precision of oceanographic data analysis directly impacts our understanding and prediction of marine ecosystems, climate change effects, and weather phenomena. A significant challenge in this domain is the limited availability and uneven distribution of sea surface temperature measurements, which are crucial for accurate climate modeling. This scarcity necessitates effective data augmentation techniques to enhance dataset quality and coverage. Current methods for augmenting geophysical data, particularly for marine applications, are notably lacking, leaving a gap in our ability to refine predictions and analyses. To address this, our study introduces a novel approach using a Generative Adversarial Network (GAN), where the generator employs depthwise separable convolutions alongside U-Net architecture for efficient data generation, and the discriminator is enhanced with residual attention mechanisms for precise validation. Incorporating Mean Absolute Error (MAE) as a regularization term alongside the traditional GAN loss ensures the generated sea surface temperature (*sst*) fields are distinct yet realistic compared to the original ERA5 daily *sst* data. Evaluating our method through predictive performance on augmented datasets, we observed a significant improvement, with a 34.48% reduction in MAE.
 
 <p align="center">
-  <img src="./pics/framework.jpg" width="1000"/>
+  <img src="./pic/framework.jpg" width="1000"/>
 </p>
 
 
