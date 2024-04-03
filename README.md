@@ -1,5 +1,6 @@
 # GeoGAN
 PyTorch implementation of GeoGAN: Adversarial Augmented Dataset for Refined Daily Prediction of Sea Surface Temperature Fields
+Releasing soom...
 
 ### Training GeoGAN:
 Simply run the following to train an encoder-decoder network using GeoGAN on the your dataset:
